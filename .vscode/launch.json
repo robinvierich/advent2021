@@ -8,9 +8,9 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/advent3/target/debug/advent3",
-            "args": ["${workspaceFolder}\\advent3\\input.txt"],
-            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\${relativeFileDirname}\\..\\target\\debug\\advent4",
+            "args": ["${workspaceFolder}\\${relativeFileDirname}\\..\\input.txt"],
+            "cwd": "${relativeFileDirname}",
             "env" : {
                 "RUST_BACKTRACE": "1"
             }

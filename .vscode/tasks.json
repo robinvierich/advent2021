@@ -17,9 +17,12 @@
 			],
 			"group": {
 				"kind": "build",
-				"isDefault": true
+				"isDefault": true,
 			},
-			"label": "Rust: cargo build - advent1"
-		}
+			"options": {
+				"cwd": "${relativeFileDirname}/.."
+			},
+			"label": "Rust: cargo build"
+		},
 	]
 }
