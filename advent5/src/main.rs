@@ -440,6 +440,34 @@ fn part_2(lines_vec: &Vec<&str>)
                     }
                 }
 
+                (Orientation::Diagonal, Orientation::Vertical) =>
+                {
+                    let x = seg2.pt1.x;
+
+                    if (seg1.x_min() <= x) && (x <= seg1.x_max())
+                    && (seg1.y_min() )
+                    {
+
+                    }
+                    
+                }
+
+                (Orientation::Diagonal, Orientation::Horizontal) =>
+                {
+                }
+
+                (Orientation::Vertical, Orientation::Diagonal) =>
+                {
+                }
+
+                (Orientation::Horizontal, Orientation::Diagonal) =>
+                {
+                }
+
+                (Orientation::Diagonal, Orientation::Diagonal) =>
+                {
+                }
+
                 // (Orientation::None, Orientation::None) =>
                 // {
                 //     // if points are the same, mark it
